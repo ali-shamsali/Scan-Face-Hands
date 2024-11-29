@@ -1,0 +1,128 @@
+[
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "mediapipe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mediapipe",
+        "description": "mediapipe",
+        "detail": "mediapipe",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "kivy.app",
+        "description": "kivy.app",
+        "isExtraImport": true,
+        "detail": "kivy.app",
+        "documentation": {}
+    },
+    {
+        "label": "BoxLayout",
+        "importPath": "kivy.uix.boxlayout",
+        "description": "kivy.uix.boxlayout",
+        "isExtraImport": true,
+        "detail": "kivy.uix.boxlayout",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "kivy.uix.image",
+        "description": "kivy.uix.image",
+        "isExtraImport": true,
+        "detail": "kivy.uix.image",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "kivy.uix.label",
+        "description": "kivy.uix.label",
+        "isExtraImport": true,
+        "detail": "kivy.uix.label",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "importPath": "kivy.graphics",
+        "description": "kivy.graphics",
+        "isExtraImport": true,
+        "detail": "kivy.graphics",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "importPath": "kivy.graphics",
+        "description": "kivy.graphics",
+        "isExtraImport": true,
+        "detail": "kivy.graphics",
+        "documentation": {}
+    },
+    {
+        "label": "Texture",
+        "importPath": "kivy.graphics.texture",
+        "description": "kivy.graphics.texture",
+        "isExtraImport": true,
+        "detail": "kivy.graphics.texture",
+        "documentation": {}
+    },
+    {
+        "label": "Clock",
+        "importPath": "kivy.clock",
+        "description": "kivy.clock",
+        "isExtraImport": true,
+        "detail": "kivy.clock",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "FaceHandApp",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class FaceHandApp(App):\n    def build(self):\n        # UI layout\n        layout = BoxLayout(orientation='vertical')\n        # Add a gray background\n        with layout.canvas.before:\n            Color(0.7, 0.7, 0.7, 0.5)  # Light gray color\n            self.rect = Rectangle(size=layout.size, pos=layout.pos)\n        # Ensure the background updates with size and position changes\n        layout.bind(size=self._update_rect, pos=self._update_rect)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
